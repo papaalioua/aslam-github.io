@@ -1,0 +1,57 @@
+.input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 300px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    display: block;
+    margin-left:30%;
+    margin-right: auto;
+    font-size: 10ch;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.in{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 305px;
+    height: 50px;
+    font-size: 5ch;
+    text-align: center;
+    background-color: aliceblue;
+    transform: all 1s;
+
+}
+.in:hover{
+    width: 305px;
+    height: 50px;
+    transition: all 3s;
+    background-color: bisque;
+    transform: rotate(20deg);
+
+}
+head{
+    background-color: bisque;
+}
+body{
+    background-color: blanchedalmond;
+}
+h1:hover{
+    color: gray;
+    transform: rotate(360deg);
+    transition: all 1s;
+
+}
+.input:hover{
+    background-color: bisque;
+    transition: all 2s;
+    transform: translateX(180px);
+    transform: rotateZ(10deg);
+    
+}
