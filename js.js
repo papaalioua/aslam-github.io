@@ -4,14 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const guessSubmit = document.getElementById('guessSubmit');
     const message = document.getElementById('message');
 
-    // Generate a random number between 1 and 100
+
     const randomNumber = Math.floor(Math.random() * 100) + 1;
 
     let attempts = 0;
 
-    // Function to check the user's guess
+
     function checkGuess(event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault(); 
 
         let userGuess = parseInt(guessField.value);
 
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         attempts++;
     }
 
-    // Function to end the game
+   
     function gameOver() {
         guessField.disabled = true;
         guessSubmit.disabled = true;
@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const guessSubmit = document.getElementById('guessSubmit');
     const message = document.getElementById('message');
 
-    // Generate a random number between 1 and 100
+
     const randomNumber = Math.floor(Math.random() * 100) + 1;
 
     let attempts = 0;
 
-    // Function to check the user's guess
+
     function checkGuess(event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault(); 
 
         let userGuess = parseInt(guessField.value);
 
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
         attempts++;
     }
 
-    // Function to end the game
+
     function gameOver() {
         guessField.disabled = true;
         guessSubmit.disabled = true;
